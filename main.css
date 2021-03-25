@@ -37,7 +37,7 @@
 
 
   h1 { 
-    font-size:26px;
+    /* font-size:50px; */
     padding-left: 10px; 
     padding-top: 10px; 
     font-family: 'Lato';
@@ -47,15 +47,15 @@
 
 /* Anchor styles */
   a { 
-    color: black;
+    color: white;
     text-decoration: none;
   }
-  a:hover { 
+  /* a:hover { 
     color: #dcdcdc;
   }
   a:active { 
     color: #666;
-  }
+  } */
 
   /* a:visited { 
     color: white;
@@ -104,4 +104,68 @@
    .nav-link {
 
   }
+  
 
+  h1 {
+    font-size: 2.8rem;
+  }
+  .pillars{ 
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.pillar{ 
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  }
+  
+
+.pillar-icon { 
+  height: 100px;
+  width: 100px;
+}
+
+
+.myButton {
+width: 100px;
+text-align: center;
+	border-radius:15px;
+	border:1px solid #FFFFFF;
+	/* display:inline-block; */
+	cursor:pointer;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:14px;
+	/* font-weight:bold; */
+  padding:12px 16px;
+  margin:12px 16px;
+	text-decoration:none;
+	/* text-shadow:0px 1px 0px #ffffff; */
+}
+.myButton:hover {
+background-color: white;
+color:#333333;
+text-decoration: none;
+}
+
+
+.meButton {
+  /* width: 100px; */
+  text-align: center;
+    /* border-radius:15px;
+    border:1px solid #FFFFFF; */
+    /* display:inline-block; */
+    cursor:pointer;
+    color:#FFFFFF;
+    text-decoration:none;
+    /* text-shadow:0px 1px 0px #ffffff; */
+  }
+  .meButton:hover {
+  background-color: none;
+  color:#ffffff;
+  text-decoration: none;
+  }
+  
